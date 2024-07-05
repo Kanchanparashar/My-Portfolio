@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanchan Parashar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Designer/ Developer</p>
+            <h1>Hi, I'm <span>Kanchan</span><br>Parashar...</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/sunshine_image-hd.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I'm Kanchan Parashar, a passionate and dedicated Computer Science and Engineering student at Oriental College of Technology, Bhopal, graduating in 2024. With a strong foundation in web development and programming, I have hands-on experience as a Frontend Developer intern at Coduzion Technologies. I excel in creating dynamic and responsive web pages using HTML, CSS, JavaScript, Bootstrap, and React JS. 
+                    </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Designing & Development</span><br>HTML5, CSS3, Javascript, Bootstrap, Tailwind CSS, React Js </li>
+
+                        <li><span>Programming Language</span><br>C++, Python</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>JUNE 2024 - Current</span><br>Livinart Technologies
+                        <br>
+                        [Frontend Web Developer]
+                    </li>
+                        <li><span>2022 - 2023</span><br>Internship at Coduzion Technologies.
+                        <br> [Frontend Intern]
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Bachelor's Degree</span><br>Oriental College of Technology Bhopal - 8.5 CGPA</li>
+                        <li><span>Intermediate</span><br>GGIC Lalitpur - 76%</li>
+                        <li><span>High School</span><br>Swani vivekanand High School - 81% </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I specialize in crafting visually captivating and responsive websites using HTML, CSS, JavaScript, and ReactJS. My services include custom website design, SEO-friendly development, and seamless integration with content management systems. Whether you need a dynamic e-commerce platform or a simple informational site, I ensure your online presence is both aesthetically pleasing and highly functional.</p>
+              
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>I provide comprehensive UI/UX design services focused on delivering exceptional user experiences. By prioritizing intuitive navigation, engaging interfaces, and user-centric design principles, I create digital products that are not only beautiful but also easy to use. My approach ensures that every interaction with your website is meaningful, enhancing user satisfaction and driving business results.</p>
+            
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Graphic Design</h2>
+                <p> I offer professional graphic design services to help your brand stand out. From logos and branding materials to marketing collateral and social media graphics, I create visually stunning designs that effectively communicate your message and enhance your brand identity.
+                </p>
+               
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/book-coverrr.avif">
+                <div class="layer">
+                    <h3>Old Book Seller</h3>
+                    <p>Your premier destination for discovering and enjoying old and rare books. Our extensive collection, featuring meticulously curated literary treasures from various genres and eras, offers a seamless online reading experience. Enhance your journey with personalized book recommendations, and contribute to our community by uploading and sharing your own rare finds. Join a vibrant community of book lovers and embark on a timeless literary adventure.
+                    </p>
+                    <a href="https://kanchanparashar.github.io/BidoilIndia/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://plus.unsplash.com/premium_photo-1676998930828-cabd06cb61c5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                <div class="layer">
+                    <h3>Landing Page</h3>
+                    <p>I developed a landing page for the "BidoilWebsite" project, which serves as the online presence for a biodiesel company. The landing page is designed to provide visitors with essential information about the company, its products, and its mission to promote sustainable energy solutions.</p>
+                    <a href="hhttps://kanchanparashar.github.io/BidoilWebsite/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/music-player-cover.avif">
+                <div class="layer">
+                    <h3>Music Player</h3>
+                    <p>Music web</p>
+                    <a href="https://kanchanparashar.github.io/HindiMusic/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa fa-envelope" aria-hidden="true"></i> kanchanprshr@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 6264629821</p>
+
+                <div class="social-icons">
+                
+                    
+                    <a href="https://www.instagram.com/kanchannnn_"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/kanchan-parashar-320886224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="https://github.com/Kanchanparashar"><i class="fab fa-github" aria-hidden="true"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Kanchan. <i class="fa fa-heart"></i>
+    </div>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
